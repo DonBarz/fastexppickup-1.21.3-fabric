@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "fastexppickup",
+	"version": "${version}",
+	"name": "FastExpPickup",
+	"description": "Deletes the exp orbs pickup delay",
+	"authors": [
+		"Donbarz"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/fastexppickup/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.donbarz.fastexppickup.FastExpPickup"
+		],
+		"client": [
+			"net.donbarz.fastexppickup.FastExpPickupClient"
+		]
+	},
+	"mixins": [
+		"fastexppickup.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21.3",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
