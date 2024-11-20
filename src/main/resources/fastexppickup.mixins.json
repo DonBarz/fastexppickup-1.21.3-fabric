@@ -3,7 +3,6 @@
 	"package": "net.donbarz.fastexppickup.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-		"ExampleMixin",
 		"ExperienceOrbAccessor",
 		"ExpOrbInvoker",
 		"ExpOrbMixin"
